@@ -13,7 +13,11 @@ const PORT = process.env.PORT;
 
 app.use(
   cors({
-    origin: ["http://localhost:3000", "http://localhost:3001"],
+    origin: [
+      "http://localhost:3000",
+      "http://localhost:3001",
+      "https://shortyclient.netlify.app",
+    ],
     credentials: true,
     exposedHeaders: ["set-cookie"],
   })
