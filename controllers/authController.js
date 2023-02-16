@@ -1,4 +1,4 @@
-import CustomError from "../utils/customError";
+import CustomError from "../utils/CustomError";
 import asyncHandler from "express-async-handler";
 import JwtService from "../services/JwtService";
 import bcrypt from "bcrypt";
