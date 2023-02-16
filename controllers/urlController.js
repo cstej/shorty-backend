@@ -1,7 +1,7 @@
 import expressAsyncHandler from "express-async-handler";
 import { nanoid } from "nanoid";
 import Url from "../models/urlModel";
-import CustomError from "../utils/customError";
+import CustomError from "../utils/CustomError";
 
 export const createShortUrl = expressAsyncHandler(async (req, res, next) => {
   const shortId = await nanoid(8);
