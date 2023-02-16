@@ -1,5 +1,5 @@
 import asyncHandler from "express-async-handler";
-import CustomError from "../utils/customError";
+import CustomError from "../utils/CustomError";
 // import config from "../config/index.js";
 import JwtService from "../services/JwtService";
 import User from "../models/userModel";
